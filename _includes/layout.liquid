@@ -15,7 +15,7 @@ title: 11ty Boilerplate
   <nav class="grid grid-flow-col grid-rows-1 gap-4 items-center justify-center border-b-2 border-[#CDAC87]">
     <img alt="Logo" src="/images/Logo.svg" class="p-4">
     <h1>Surf and Sniffs</h1>
-    <div class="pl-20">
+    <div class="justify-items-end">
     <!-- Dropdown menu -->
         <button id="dropdownMenuIconHorizontalButton" data-dropdown-toggle="dropdownDotsHorizontal" class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 rounded-lg" type="button"> 
         <img alt="menu buttom" src="/images/Menu.svg">
@@ -36,9 +36,13 @@ title: 11ty Boilerplate
           </ul>
       </div>
       </div>
-
   </nav>
     {{ content }}
+
+  <footer class="grid grid-flow-col grid-rows-1 justify-end gap-5 border-t-2 border-[#CDAC87] p-2">
+    <a href="#"><img alt="Bluesky" src="/images/bluesky.svg"></a>
+    <a href="#"><img alt="Substack Icon" src="/images/substack.svg" class="pr-6"></a>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>  
 </body>
 </html>

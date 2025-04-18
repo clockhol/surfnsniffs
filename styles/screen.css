@@ -10,7 +10,8 @@ body {
 nav {
     height: 75px;
     background-color: #5A584D;
-
+    position: sticky;
+    top: 0;
 }
 
 h1 {
@@ -24,4 +25,13 @@ h1 {
 li {
     color: #ECE2D1;
     font-size: 1.25em;
+}
+
+footer {
+    height: 40px;
+    background-color: #5A584D;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
