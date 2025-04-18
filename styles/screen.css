@@ -2,10 +2,6 @@
 @import url('https://fonts.cdnfonts.com/css/tuffy');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
-@theme {
-    --color-accent: #8D7053;
-}
-
 body {
     background-color: #ECE2D1;
     font-family: "Tuffy";
@@ -25,3 +21,7 @@ h1 {
     text-shadow: 2px 2px 2px #303030;
 }
 
+li {
+    color: #ECE2D1;
+    font-size: 1.25em;
+}
