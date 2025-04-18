@@ -12,15 +12,17 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-  <nav class="header" >
-
+  <nav class="grid grid-flow-col grid-rows-1 gap-4 items-center justify-center border-b-2 border-accent">
+    <img alt="Logo" src="/images/Logo.svg" class="p-4">
+    <h1>Surf and Sniffs</h1>
+    <div class="pl-20">
     <!-- Dropdown menu -->
-        <button id="dropdownMenuIconHorizontalButton" data-dropdown-toggle="dropdownDotsHorizontal" class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600" type="button"> 
+        <button id="dropdownMenuIconHorizontalButton" data-dropdown-toggle="dropdownDotsHorizontal" class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 rounded-lg" type="button"> 
         <img alt="menu buttom" src="/images/Menu.svg">
         </button>
 
       <!-- Dropdown menu -->
-      <div id="dropdownDotsHorizontal" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
+      <div id="dropdownDotsHorizontal" class="z-10 hidden bg-accent divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
           <ul class="py-2 text-sm" aria-labelledby="dropdownMenuIconHorizontalButton">
             <li>
               <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Home</a>
@@ -32,6 +34,7 @@ title: 11ty Boilerplate
               <a href="/services/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Services</a>
             </li>
           </ul>
+      </div>
       </div>
 
   </nav>

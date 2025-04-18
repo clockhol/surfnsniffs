@@ -1,13 +1,27 @@
+@import "tailwindcss";
 @import url('https://fonts.cdnfonts.com/css/tuffy');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
-.root {
-    --main-bg-color: #ECE2D1;
-    --alt-bg-color: #5A584D;
-    --primary-text-color: #303030;
-    --alt-text-color: #5A584D;
-    --tri-text-color: #ECE2D1;
-    --accent-color: #8D7053;
-    --alt-accent-color: #CDAC87;
+@theme {
+    --color-accent: #8D7053;
+}
+
+body {
+    background-color: #ECE2D1;
+    font-family: "Tuffy";
+}
+
+nav {
+    height: 75px;
+    background-color: #5A584D;
+
+}
+
+h1 {
+    color:#ECE2D1;
+    font-size: 2em;
+    font-family: "Tilt Warp";
+    -webkit-text-stroke: 1px #8D7053;
+    text-shadow: 2px 2px 2px #303030;
 }
 
