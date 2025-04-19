@@ -12,33 +12,33 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-  <nav class="grid grid-flow-col grid-rows-1 gap-4 items-center justify-center border-b-2 border-[#CDAC87]">
-    <img alt="Logo" src="/images/Logo.svg" class="p-4">
-    <h1>Surf and Sniffs</h1>
-    <div class="justify-items-end">
+  <nav class="grid grid-flow-col grid-rows-1 items-center justify-center gap-10 border-b-2 border-[#CDAC87]">
+    <div class="grid grid-flow-col grid-rows-1 justify-center gap-4">
+      <a href="/"><img alt="Logo" src="/images/Logo.svg" class="justify-self-end"></a>
+      <h1 class="justify-self-center">Surf and Sniffs</h1>
+    </div>
+    <div class="justify-self-end col-span-4">
     <!-- Dropdown menu -->
-        <button id="dropdownMenuIconHorizontalButton" data-dropdown-toggle="dropdownDotsHorizontal" class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 rounded-lg" type="button"> 
+      <button id="dropdownMenuIconHorizontalButton" data-dropdown-toggle="dropdownDotsHorizontal" class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 rounded-lg" type="button"> 
         <img alt="menu buttom" src="/images/Menu.svg">
-        </button>
-
+      </button>
       <!-- Dropdown menu -->
       <div id="dropdownDotsHorizontal" class="z-10 hidden border-1 border-[#CDAC87] bg-[#8D7053] divide-y divide-gray-100 rounded-md shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
-          <ul class="py-2 text-sm" aria-labelledby="dropdownMenuIconHorizontalButton">
-            <li>
-              <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-center">Home</a>
-            </li>
-            <li>
-              <a href="/staff/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-center">Staff</a>
-            </li>
-            <li>
-              <a href="/services/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-center">Services</a>
-            </li>
-          </ul>
+        <ul class="py-2 text-sm" aria-labelledby="dropdownMenuIconHorizontalButton">
+          <li>
+            <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-center">Home</a>
+          </li>
+          <li>
+            <a href="/staff/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-center">Staff</a>
+          </li>
+          <li>
+            <a href="/services/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-center">Services</a>
+          </li>
+        </ul>
       </div>
-      </div>
+    </div>
   </nav>
     {{ content }}
-
   <footer class="grid grid-flow-col grid-rows-1 justify-end gap-5 border-t-2 border-[#CDAC87] p-2">
     <a href="#"><img alt="Bluesky" src="/images/bluesky.svg"></a>
     <a href="#"><img alt="Substack Icon" src="/images/substack.svg" class="pr-6"></a>
