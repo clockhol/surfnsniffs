@@ -5,7 +5,7 @@
 body {
     background-color: #ECE2D1;
     font-family: "Tuffy";
-    font-color: #303030;
+    color: #303030;
 }
 
 nav {
@@ -25,7 +25,8 @@ h1 {
 
 h2 {
     font-size: 1.25em;
-    text-shadow: 1px 1px 1px #303030;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #303030;
 }
 
 .ndrop {
@@ -34,20 +35,44 @@ h2 {
 }
 
 .philosophy {
+    background-color: #CDAC87;
     margin: auto;
-    width: 50%;
-    max-height: 150;
+    width: 75%;
+    max-height: 150px;
     overflow-y: auto;
+    padding: 8px;
 }
 
-.bullets {
-    background: url(paw-solid.svg) no-repeat center left;
+.small {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+
+.smEnd {
+    margin-top: 1em;
+}
+
+.pbullets {
+    list-style-type: none;
+    padding: 0 0 0 20px;
+}
+
+li.bullets {
+    list-style-image: url(/images/paw-solid.svg);
+}
+
+  .reviews {
+    color: #ECE2D1;
+    background-color: #8D7053;
+    margin: auto;
+    width: 75%;
+    padding: 8px;
+  }
 
 footer {
     height: 40px;
     background-color: #5A584D;
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
