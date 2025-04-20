@@ -42,6 +42,13 @@ h2 {
     padding: 8px;
 }
 
+.staff {
+    background-color: #CDAC87;
+    margin: auto;
+    width: 75%;
+    padding: 8px;
+}
+
 .small {
     margin-top: 1em;
     margin-bottom: 1em;
