@@ -23,10 +23,51 @@ title: Home
 </div>
 
 <div class="mt-5 mb-5">
-<div class="reviews">
-    <p><strong>Best decision we ever made for our pup!</strong></p>
-    <p>Surf & Sniffs has been a total game-changer for our golden retriever, Luna. We recently moved to San Diego and were nervous about finding a walker we could trust. Not only do they take her on the coolest beach walks, but they also give us daily photo updates—Luna's smile says it all! It's clear they genuinely love dogs. Highly recommend!</p>
-    <p>— Emma R., La Jolla</p>
+<div id="controls-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 md:h-45 lg:h-40 xl:h-33 overflow-hidden rounded-lg">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="reviews">
+                <p><strong>Best decision we ever made for our pup!</strong></p>
+                <p>Surf & Sniffs has been a total game-changer for our golden retriever, Luna. We recently moved to San Diego and were nervous about finding a walker we could trust. Not only do they take her on the coolest beach walks, but they also give us daily photo updates—Luna's smile says it all! It's clear they genuinely love dogs. Highly recommend!</p>
+                <p>— Emma R., La Jolla</p>
+            </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <div class="reviews">
+                <p><strong>Our dog is obsessed with them</strong></p>
+                <p>We have a super high-energy husky named Diesel, and Surf & Sniffs is the only service that’s ever truly worn him out. They take him on adventure-packed walks, and he comes back happy, calm, and sandy (in the best way). Their team is always professional, on time, and super communicative. 10/10!</p>
+                <p>— Marcus B., Pacific Beach</p>
+            </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="reviews">
+                <p><strong>They treat our dog like family</strong></p>
+                <p>Our little rescue, Bella, is shy and takes a while to warm up to new people, but the Surf & Sniffs crew was patient and gentle from day one. Now she waits by the door with her tail wagging when it's walk time. We’re so grateful to have found a team that cares for her like we do.</p>
+                <p>— Jenny & Luis M., Ocean Beach</p>
+            </div>
+        </div>
+     </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
 </div>
 </div>
 
