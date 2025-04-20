@@ -2,10 +2,10 @@
 layout: layout.liquid
 title: Home - Surf & Sniffs
 ---
-<div class="grid grid-flow-col justify-center items-center pt-5 pb-2.5">
+<div class="flex justify-center items-center gap-4 pt-5 pb-2.5">
     <img alt="Dogs on a mountain top" src="/images/RaptorRidge.png"/>
-    <img alt="Dogs on a hiking trail" src="/images/MissionRegional.png"/>
-    <img alt="Dogs sitting on a rock" src="/images/SouthClevenger.png"/>
+    <img class="hidden sm:block" alt="Dogs on a hiking trail" src="/images/MissionRegional.png"/>
+    <img class="hidden md:block" alt="Dogs sitting on a rock" src="/images/SouthClevenger.png"/>
 </div>
 
 <div class="philosophy">
@@ -25,7 +25,7 @@ title: Home - Surf & Sniffs
 <div class="mt-5 mb-5">
 <div id="controls-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 md:h-45 lg:h-40 xl:h-33 overflow-hidden rounded-lg">
+    <div class="relative h-75 sm:50 md:h-45 lg:h-40 xl:h-33 overflow-hidden rounded-lg">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="reviews">
