@@ -67,6 +67,10 @@ li.bullets {
     list-style-image: url(/images/paw-solid.svg);
 }
 
+li.bullets2 {
+    list-style-image: url(/images/bLight.svg);
+}
+
   .reviews {
     color: #ECE2D1;
     background-color: #8D7053;
